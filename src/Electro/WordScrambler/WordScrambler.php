@@ -70,7 +70,7 @@ class WordScrambler extends PluginBase implements Listener{
         {
             if ($this->rewardEnabled)
             {
-                $player->sendMessage("§bFirst Player To Unscramble The Word §e". str_shuffle($this->word) ." §bWill Receive $". $this->reward ."!");
+                $player->sendMessage("§a===== §f[ §2MENYUSUN KATA §f]§a =====\n\n         §fOrang Pertama Yang Menyusun\n         Kata: §f" . str_shuffle($this->word) . "§a\n         Akan Mendapatkan §e$" . $this->reward . "§a!!");
             }
             else
             {
